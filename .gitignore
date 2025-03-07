@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Cypress configuration and results
+cypress/screenshots/
+cypress/videos/
+cypress/results/
+cypress/reports/
+cypress/logs/
+
+# Cypress specific files
+cypress.json
+cypress.env.json
+
+# Mochawesome reports
+mochawesome-report/
+mochawesome.json
+
+# TypeScript build artifacts
+dist/
+out/
+*.js
+*.js.map
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
