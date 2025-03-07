@@ -119,29 +119,30 @@ Create an advanced and scalable test automation framework using Cypress and Type
 
 🎯 Requirements:
 
-Tech Stack: Cypress (TypeScript), ESNext
-Reporting: Integrate Mochawesome as a reporting system with custom configurations for usability
-Architecture: Follow a layered architecture with best practices in automation
-Test Design:
-Implement the Page Object Model (POM)
-Use Gang of Four (GoF) patterns (Factory, Builder, Strategy, Decorator) for object creation and framework/test behavior explanation
-Apply Object-Oriented Design (OOD) (interfaces, SOLID principles)
-Test Coverage:
-Include End-to-End (E2E) and API tests and clearly separate them
-Implement advanced real-world scenarios (e.g., multi-step form interactions, stateful API workflows) using any publicly available test URL
-Ensure tests are reliable and pass consistently
-Code Quality:
-Follow best practices in Cypress and modern test automation
-Maintain clean code principles: KISS, DRY, SOLID
-Avoid anti-patterns (e.g., magic strings)
-Data Management: Implement an efficient test data strategy
-Modern JS Features: Use async/await, latest ESNext features
-Documentation: Provide a detailed README explaining the framework structure and usage
+- **Tech Stack**: Cypress (TypeScript), ESNext
+- **Reporting**: Integrate Mochawesome as a reporting system with custom configurations for usability
+- **Architecture**: Follow a layered architecture with best practices in automation
+- **Test Design**:
+  - Implement the Page Object Model (POM)
+  - Use Gang of Four (GoF) patterns (Factory, Builder, Strategy, Decorator) for object creation and framework/test behavior explanation
+  - Apply Object-Oriented Design (OOD) (interfaces, SOLID principles)
+- **Test Coverage**:
+  - Include End-to-End (E2E) and API tests and clearly separate them
+  - Implement advanced real-world scenarios (e.g., multi-step form interactions, stateful API workflows) using any publicly available test URL
+  - Ensure tests are reliable and pass consistently
+- **Code Quality**:
+  - Follow best practices in Cypress and modern test automation
+  - Maintain clean code principles: KISS, DRY, SOLID
+  - Avoid anti-patterns (e.g., magic strings)
+- **Data Management**: Implement an efficient test data strategy
+- **Modern JS Features**: Use async/await, latest ESNext features
+- **Documentation**: Provide a detailed README explaining the framework structure and usage
+
 🔹 Deliverables:
 
-A fully functional Cypress/TS test automation framework
-Well-structured, maintainable, and scalable codebase
-A self-explanatory and professional project to showcase my expertise
+- A fully functional Cypress/TS test automation framework
+- Well-structured, maintainable, and scalable codebase
+- A self-explanatory and professional project to showcase my expertise
 
 ## Contributing
 
