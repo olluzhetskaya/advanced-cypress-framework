@@ -4,12 +4,13 @@
   "description": "## Overview",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "clean:reports": "rimraf cypress/results mochawesome-report mochawesome.json",
+    "test": "npm run clean:reports && cypress run",
     "mochawesome:merge": "mochawesome-merge cypress/results/*.json > mochawesome.json",
     "mochawesome:report": "marge mochawesome.json -f report -o mochawesome-report",
     "lint": "eslint 'cypress/**/*.ts'",
     "format": "prettier --write 'cypress/**/*.ts'",
-    "prepare": "husky && husky install"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^6.2.0",
     "prettier": "^3.5.3",
+    "rimraf": "^5.0.10",
     "typescript": "^5.8.2"
   },
   "lint-staged": {
