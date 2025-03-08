@@ -21,6 +21,7 @@ dist/
 out/
 *.js
 *.js.map
+!eslint.config.js
 
 # Logs
 *.log
