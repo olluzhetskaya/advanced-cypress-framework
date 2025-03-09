@@ -7,8 +7,6 @@
     "clean:reports": "rimraf cypress/results mochawesome-report mochawesome.json",
     "test:e2e": "npm run clean:reports && cypress run --config-file cypress.e2e.config.ts",
     "test:api": "npm run clean:reports && cypress run --config-file cypress.api.config.ts",
-    "mochawesome:merge": "mochawesome-merge cypress/results/*.json > mochawesome.json",
-    "mochawesome:report": "marge mochawesome.json -f report -o mochawesome-report",
     "lint": "eslint 'cypress/**/*.ts'",
     "format": "prettier --write 'cypress/**/*.ts'",
     "prepare": "husky install"
@@ -22,20 +20,21 @@
     "@typescript-eslint/eslint-plugin": "^8.26.0",
     "@typescript-eslint/parser": "^8.26.0",
     "cypress": "^14.1.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
     "husky": "^8.0.0",
     "lint-staged": "^15.4.3",
     "mochawesome": "^7.1.3",
-    "mochawesome-merge": "^4.2.0",
+    "mochawesome-merge": "^4.4.1",
     "mochawesome-report-generator": "^6.2.0",
     "prettier": "^3.5.3",
     "rimraf": "^5.0.10",
     "typescript": "^5.8.2"
   },
   "lint-staged": {
-    "cypress/**/**/*.ts": [
+    "cypress/**/*.ts": [
       "eslint --fix",
       "prettier --write"
     ]
